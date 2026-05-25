@@ -5,9 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://cropland.fun"><img alt="Site" src="https://img.shields.io/badge/site-cropland.fun-1a8917?style=for-the-badge"></a>
-  <a href="https://x.com/cropfun"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40cropfun-000000?logo=x&style=for-the-badge"></a>
-  <a href="https://medium.com/@CropLandFun"><img alt="Medium" src="https://img.shields.io/badge/medium-%40CropLandFun-12100E?logo=medium&style=for-the-badge"></a>
+  <a href="https://thewheat.world"><img alt="Site" src="https://img.shields.io/badge/site-thewheat.world-1a8917?style=for-the-badge"></a>
+  <a href="https://github.com/neilhtennek/wheat-world"><img alt="GitHub" src="https://img.shields.io/badge/source-neilhtennek%2Fwheat--world-181717?logo=github&style=for-the-badge"></a>
+  <a href="https://x.com/TheWheatWorld"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40TheWheatWorld-000000?logo=x&style=for-the-badge"></a>
+  <a href="https://medium.com/@WheatWorld"><img alt="Medium" src="https://img.shields.io/badge/medium-%40WheatWorld-12100E?logo=medium&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -32,7 +33,7 @@ That single design choice is what separates Wheat World from a farming game. The
 
 > **Land you don't believe in, you don't claim. Land you do, you defend.**
 
-Play now at **[cropland.fun](https://cropland.fun)** · Follow updates on **[@cropfun](https://x.com/cropfun)** · Read more on **[Medium](https://medium.com/@CropLandFun)**.
+Play now at **[thewheat.world](https://thewheat.world)** · Follow updates on **[@TheWheatWorld](https://x.com/TheWheatWorld)** · Read more on **[Medium](https://medium.com/@WheatWorld)**.
 
 ---
 
@@ -381,9 +382,9 @@ Independent review is in progress. Findings will be published in this repository
 
 ## Links
 
-- **Site** — [cropland.fun](https://cropland.fun)
-- **Twitter / X** — [@cropfun](https://x.com/cropfun)
-- **Medium** — [@CropLandFun](https://medium.com/@CropLandFun)
+- **Site** — [thewheat.world](https://thewheat.world)
+- **Twitter / X** — [@TheWheatWorld](https://x.com/TheWheatWorld)
+- **Medium** — [@WheatWorld](https://medium.com/@WheatWorld)
 - **Source** — you're reading it
 
 ---
