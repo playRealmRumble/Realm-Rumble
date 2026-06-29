@@ -12,8 +12,8 @@ avm install 0.30.1
 avm use   0.30.1
 
 # 2. Clone + install dependencies
-git clone https://github.com/leeoxiang/wheat-game
-cd wheat-game
+git clone https://github.com/playCroptopia/Croptopia
+cd Croptopia
 yarn install
 
 # 3. Build + run the test suite

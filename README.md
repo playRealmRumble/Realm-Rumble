@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://croptopia.world"><img alt="Site" src="https://img.shields.io/badge/site-croptopia.world-1a8917?style=for-the-badge"></a>
-  <a href="https://github.com/leeoxiang/wheat-game"><img alt="GitHub" src="https://img.shields.io/badge/source-leeoxiang%2Fwheat--game-181717?logo=github&style=for-the-badge"></a>
+  <a href="https://github.com/playCroptopia/Croptopia"><img alt="GitHub" src="https://img.shields.io/badge/source-playCroptopia%2FCroptopia-181717?logo=github&style=for-the-badge"></a>
   <a href="https://x.com/playCroptopia"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40playCroptopia-000000?logo=x&style=for-the-badge"></a>
   <a href="https://medium.com/@Croptopia"><img alt="Medium" src="https://img.shields.io/badge/medium-%40Croptopia-12100E?logo=medium&style=for-the-badge"></a>
 </p>

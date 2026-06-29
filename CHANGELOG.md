@@ -25,5 +25,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 5-plot-per-wallet cap, enforced at program level.
 - Abandon mechanics: 50% burn, 50% to protocol treasury.
 
-[Unreleased]: https://github.com/leeoxiang/wheat-game/compare/v0.1.0...HEAD
-[0.1.0]:      https://github.com/leeoxiang/wheat-game/releases/tag/v0.1.0
+[Unreleased]: https://github.com/playCroptopia/Croptopia/compare/v0.1.0...HEAD
+[0.1.0]:      https://github.com/playCroptopia/Croptopia/releases/tag/v0.1.0
