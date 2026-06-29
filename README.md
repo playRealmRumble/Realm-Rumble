@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.gif" alt="Wheat.game" />
+  <img src="assets/banner.gif" alt="Croptopia" />
 </p>
 
 <p align="center">
@@ -25,13 +25,13 @@
 
 ---
 
-## What is Wheat.game
+## What is Croptopia
 
-Wheat.game is a multiplayer farming game where every plot of land is a real, stake-backed position on Solana. There are 100 plots in the world. They are unevenly distributed across four tiers — Bronze, Silver, Gold, Diamond — and they don't mint, airdrop, or expand. Once they're claimed, they're claimed, and the only way more come back to the market is when someone abandons theirs.
+Croptopia is a multiplayer farming game where every plot of land is a real, stake-backed position on Solana. There are 100 plots in the world. They are unevenly distributed across four tiers — Bronze, Silver, Gold, Diamond — and they don't mint, airdrop, or expand. Once they're claimed, they're claimed, and the only way more come back to the market is when someone abandons theirs.
 
 You don't rent a plot. You stake into it. The USDC you commit on claim is locked in a non-custodial vault tied to that plot, and stays locked until you transfer the plot or abandon it. Walk away, and your stake is forfeited — half burned, half to the protocol treasury.
 
-That single design choice is what separates Wheat.game from a farming game. The cost of holding land is real. The cost of giving up on land is also real. Every system layered on top — markets, tribes, alliances, raids, the yield engine — is weighted by it.
+That single design choice is what separates Croptopia from a farming game. The cost of holding land is real. The cost of giving up on land is also real. Every system layered on top — markets, tribes, alliances, raids, the yield engine — is weighted by it.
 
 > **Land you don't believe in, you don't claim. Land you do, you defend.**
 
@@ -60,7 +60,7 @@ A glimpse of four claimed plots — Bronze, Silver, Gold, Diamond — generated 
 
 ```
 ┌──────────────────────────────────────────────────────────────────┐
-│                  Wheat.game Program (Anchor)                     │
+│                  Croptopia Program (Anchor)                     │
 │                                                                  │
 │   Plot   ──┐                                                     │
 │   Player  ─┼──> claim · abandon · upgrade ──> Plot Vault (PDA)  │
@@ -94,7 +94,7 @@ Each wallet is capped at **5 plots total**. The cap is enforced at the program l
 
 ## Smart Contracts
 
-The full Anchor program lives in [`programs/wheatgame/src/`](programs/wheatgame/src/). Below is the shape of the protocol at a glance.
+The full Anchor program lives in [`programs/croptopia/src/`](programs/croptopia/src/). Below is the shape of the protocol at a glance.
 
 ### The plot account
 
@@ -257,7 +257,7 @@ A wallet can be in one tribe **and** one alliance simultaneously. The bonuses st
 
 ## The Yield Engine
 
-Every harvest in Wheat.game passes through a single pure function. Multipliers compose **multiplicatively**, not additively.
+Every harvest in Croptopia passes through a single pure function. Multipliers compose **multiplicatively**, not additively.
 
 ```rust
 pub fn compute_yield(
@@ -308,7 +308,7 @@ A farmer on a **Diamond** plot, **level 4**, in a **10-member tribe** as a membe
 
 The same plot, level-1, no tribe, no alliance, off Golden Hour, base 100, returns 100. The maxed farmer earns **8.31×** what an unaffiliated player would receive from the same harvest tick.
 
-> Wheat.game rewards dedication out of proportion to effort. Anyone can show up. Fewer can build the structure.
+> Croptopia rewards dedication out of proportion to effort. Anyone can show up. Fewer can build the structure.
 
 ### Golden Hour
 
@@ -344,11 +344,11 @@ A portion of every fee is permanently burned, reducing the circulating supply ov
 ## Repository Layout
 
 ```
-wheat-game/
+croptopia/
 ├── Anchor.toml
 ├── Cargo.toml                    # workspace
 ├── programs/
-│   └── wheatgame/
+│   └── croptopia/
 │       ├── Cargo.toml
 │       └── src/
 │           ├── lib.rs            # #[program] entrypoint and dispatchers
@@ -395,5 +395,5 @@ Independent review is in progress. Findings will be published in this repository
 ---
 
 <p align="center">
-  <em>Wheat.game — the world has 100 plots. There are 5 diamonds. Find yours.</em>
+  <em>Croptopia — the world has 100 plots. There are 5 diamonds. Find yours.</em>
 </p>

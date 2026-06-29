@@ -1,4 +1,4 @@
-# Contributing to Wheat.game
+# Contributing to Croptopia
 
 We're happy to have you. The protocol is small enough to read in an afternoon and rewards careful contributions.
 

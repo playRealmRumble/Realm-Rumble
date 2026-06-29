@@ -1,5 +1,5 @@
 // ─────────────────────────────────────────────────────────────────────────────
-// Wheat.game — a multiplayer Solana farming protocol.
+// Croptopia — a multiplayer Solana farming protocol.
 //
 // World:    100 plots, four tiers, finite supply.
 // Stake:    USDC locked into a per-plot vault PDA on claim.
@@ -11,7 +11,7 @@
 
 use anchor_lang::prelude::*;
 
-declare_id!("WhtGm111111111111111111111111111111111111");
+declare_id!("Crptp111111111111111111111111111111111111");
 
 pub mod errors;
 pub mod state;
@@ -22,7 +22,7 @@ pub use state::*;
 pub use instructions::*;
 
 #[program]
-pub mod wheatgame {
+pub mod croptopia {
     use super::*;
 
     // ────────── Plots ──────────

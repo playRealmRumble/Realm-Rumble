@@ -10,7 +10,7 @@
 
 ## Reporting a Vulnerability
 
-If you've found a vulnerability in the Wheat.game program, **do not open a public issue**. We'd rather hear about it first.
+If you've found a vulnerability in the Croptopia program, **do not open a public issue**. We'd rather hear about it first.
 
 - Email: `security@thewheat.world`
 - PGP key: published in this repository under `security/pgp.asc` (coming with the audit release).
@@ -27,7 +27,7 @@ We will acknowledge receipt within **48 hours** and respond with a triage plan w
 
 In-scope:
 
-- `programs/wheatgame/src/` and any program ID listed in `Anchor.toml`.
+- `programs/croptopia/src/` and any program ID listed in `Anchor.toml`.
 
 Out of scope:
 
@@ -45,6 +45,6 @@ We follow coordinated disclosure. Once a vulnerability is reported, we will:
 4. Deploy the patch.
 5. Publish a post-mortem within 30 days of resolution.
 
-Responsible reporters are eligible for bounties from the Wheat.game treasury under our forthcoming bug bounty program. The amount scales with severity and quality of the report.
+Responsible reporters are eligible for bounties from the Croptopia treasury under our forthcoming bug bounty program. The amount scales with severity and quality of the report.
 
 Thank you for keeping the protocol — and its players — safe.

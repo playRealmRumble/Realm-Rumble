@@ -1,12 +1,12 @@
 [package]
-name        = "wheatgame"
+name        = "croptopia"
 version     = "0.1.0"
-description = "Wheat.game — a multiplayer Solana farming protocol."
+description = "Croptopia — a multiplayer Solana farming protocol."
 edition     = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name       = "wheatgame"
+name       = "croptopia"
 
 [features]
 no-entrypoint  = []
