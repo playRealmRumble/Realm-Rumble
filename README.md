@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.gif" alt="Croptopia" />
+  <img src="assets/banner.png" alt="Croptopia" />
 </p>
 
 <p align="center">
